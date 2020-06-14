@@ -1,0 +1,218 @@
+saving to ./results/2020-05-16_14-40-58
+creating model resnet
+created model with configuration: {'dataset': 'cifar10', 'depth': 18}
+number of parameters: 175258
+optimization regime: [{'epoch': 0, 'momentum': 0.9, 'lr': 0.1, 'optimizer': 'SGD', 'regularizer': {'filter': {'parameter_name': <function weight_decay_config.<locals>.<lambda> at 0x7fc8e2e47400>, 'module': <function weight_decay_config.<locals>.<lambda> at 0x7fc8e2e47488>}, 'value': 0.0001, 'name': 'WeightDecay', 'log': False}}, {'epoch': 81, 'lr': 0.01}, {'epoch': 122, 'lr': 0.001}, {'epoch': 164, 'lr': 0.0001}]
+data regime: Current: {'num_workers': 8, 'split': 'train', 'cutout': None, 'distributed': False, 'augment': True, 'shuffle': True, 'name': 'cifar10', 'duplicates': 1, 'input_size': None, 'autoaugment': False, 'batch_size': 256, 'pin_memory': True, 'datasets_path': '/data/datasets/ILSVRC2012', 'drop_last': True}
+ Regime:None
+
+Starting Epoch: 1
+
+Files already downloaded and verified
+Files already downloaded and verified
+/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/nn/modules/conv.py:342: UserWarning: <LOWP> function conv2d was patched with lowp on 7 args
+  self.padding, self.dilation, self.groups)
+TRAINING - Epoch: [0][0/195]	Time 0.733 (0.733)	Data 0.488 (0.488)	Loss 2.3059 (2.3059)	Prec@1 10.547 (10.547)	Prec@5 50.000 (50.000)	
+TRAINING - Epoch: [0][10/195]	Time 0.021 (0.087)	Data 0.000 (0.044)	Loss 2.2097 (2.2710)	Prec@1 20.312 (13.778)	Prec@5 68.359 (62.607)	
+TRAINING - Epoch: [0][20/195]	Time 0.020 (0.055)	Data 0.000 (0.023)	Loss 2.1138 (2.2221)	Prec@1 23.047 (17.541)	Prec@5 78.516 (67.727)	
+TRAINING - Epoch: [0][30/195]	Time 0.020 (0.044)	Data 0.000 (0.016)	Loss 2.0521 (2.1857)	Prec@1 25.000 (19.115)	Prec@5 73.828 (69.808)	
+TRAINING - Epoch: [0][40/195]	Time 0.020 (0.038)	Data 0.000 (0.012)	Loss 2.1102 (2.1612)	Prec@1 20.312 (19.846)	Prec@5 74.609 (71.113)	
+TRAINING - Epoch: [0][50/195]	Time 0.020 (0.034)	Data 0.000 (0.010)	Loss 2.1853 (2.1465)	Prec@1 18.359 (20.244)	Prec@5 66.797 (71.768)	
+TRAINING - Epoch: [0][60/195]	Time 0.020 (0.032)	Data 0.000 (0.008)	Loss 2.1976 (2.1450)	Prec@1 19.922 (20.332)	Prec@5 71.484 (71.600)	
+TRAINING - Epoch: [0][70/195]	Time 0.021 (0.030)	Data 0.000 (0.007)	Loss 2.1759 (2.1465)	Prec@1 18.359 (20.246)	Prec@5 65.234 (71.308)	
+TRAINING - Epoch: [0][80/195]	Time 0.020 (0.029)	Data 0.000 (0.006)	Loss 2.1660 (2.1487)	Prec@1 19.531 (20.067)	Prec@5 71.094 (71.137)	
+TRAINING - Epoch: [0][90/195]	Time 0.020 (0.028)	Data 0.000 (0.005)	Loss 2.2196 (2.1534)	Prec@1 17.188 (19.772)	Prec@5 64.453 (70.776)	
+TRAINING - Epoch: [0][100/195]	Time 0.020 (0.027)	Data 0.000 (0.005)	Loss 2.1772 (2.1551)	Prec@1 19.531 (19.694)	Prec@5 67.969 (70.537)	
+TRAINING - Epoch: [0][110/195]	Time 0.020 (0.027)	Data 0.000 (0.005)	Loss 2.0768 (2.1550)	Prec@1 25.391 (19.756)	Prec@5 75.781 (70.478)	
+TRAINING - Epoch: [0][120/195]	Time 0.020 (0.026)	Data 0.000 (0.004)	Loss 2.1437 (2.1565)	Prec@1 18.750 (19.712)	Prec@5 69.922 (70.132)	
+TRAINING - Epoch: [0][130/195]	Time 0.020 (0.026)	Data 0.000 (0.004)	Loss 2.1431 (2.1620)	Prec@1 19.922 (19.504)	Prec@5 67.969 (69.806)	
+TRAINING - Epoch: [0][140/195]	Time 0.020 (0.025)	Data 0.000 (0.004)	Loss 2.1769 (2.1650)	Prec@1 25.781 (19.487)	Prec@5 66.797 (69.537)	
+TRAINING - Epoch: [0][150/195]	Time 0.020 (0.025)	Data 0.000 (0.003)	Loss 2.1034 (2.1646)	Prec@1 23.438 (19.578)	Prec@5 72.266 (69.539)	
+TRAINING - Epoch: [0][160/195]	Time 0.020 (0.024)	Data 0.000 (0.003)	Loss 2.1531 (2.1665)	Prec@1 23.047 (19.485)	Prec@5 71.094 (69.456)	
+TRAINING - Epoch: [0][170/195]	Time 0.020 (0.024)	Data 0.000 (0.003)	Loss 2.1417 (2.1648)	Prec@1 16.797 (19.483)	Prec@5 70.703 (69.559)	
+TRAINING - Epoch: [0][180/195]	Time 0.020 (0.024)	Data 0.000 (0.003)	Loss 2.1437 (2.1629)	Prec@1 21.875 (19.486)	Prec@5 70.312 (69.566)	
+TRAINING - Epoch: [0][190/195]	Time 0.019 (0.024)	Data 0.000 (0.003)	Loss 2.2152 (2.1622)	Prec@1 16.016 (19.464)	Prec@5 67.578 (69.621)	
+TRAINING - Epoch: [0][194/195]	Time 0.019 (0.024)	Data 0.000 (0.003)	Loss 2.1420 (2.1613)	Prec@1 19.922 (19.503)	Prec@5 74.219 (69.651)	
+EVALUATING - Epoch: [0][0/40]	Time 0.476 (0.476)	Data 0.468 (0.468)	Loss 3.1968 (3.1968)	Prec@1 16.797 (16.797)	Prec@5 54.297 (54.297)	
+EVALUATING - Epoch: [0][10/40]	Time 0.007 (0.052)	Data 0.000 (0.045)	Loss 3.3788 (3.3023)	Prec@1 10.938 (12.678)	Prec@5 51.172 (53.018)	
+EVALUATING - Epoch: [0][20/40]	Time 0.006 (0.031)	Data 0.000 (0.024)	Loss 3.3535 (3.3183)	Prec@1 9.375 (12.128)	Prec@5 51.953 (52.809)	
+EVALUATING - Epoch: [0][30/40]	Time 0.006 (0.023)	Data 0.000 (0.017)	Loss 3.1816 (3.3155)	Prec@1 10.547 (11.971)	Prec@5 57.422 (52.470)	
+EVALUATING - Epoch: [0][39/40]	Time 0.040 (0.020)	Data 0.000 (0.013)	Loss 2.9546 (3.3059)	Prec@1 18.750 (12.240)	Prec@5 50.000 (52.540)	
+
+Results - Epoch: 1
+Training Loss 2.1613 	Training Prec@1 19.503 	Training Prec@5 69.651 	Validation Loss 3.3059 	Validation Prec@1 12.240 	Validation Prec@5 52.540 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+Plot file saved at: /data/moran/ConvNet_lowp_0/convNet.pytorch/results/2020-05-16_14-40-58/results.html
+
+Starting Epoch: 2
+
+TRAINING - Epoch: [1][0/195]	Time 0.523 (0.523)	Data 0.485 (0.485)	Loss 2.1123 (2.1123)	Prec@1 21.484 (21.484)	Prec@5 70.703 (70.703)	
+TRAINING - Epoch: [1][10/195]	Time 0.022 (0.066)	Data 0.000 (0.044)	Loss 2.1527 (2.1332)	Prec@1 16.797 (18.892)	Prec@5 71.094 (71.982)	
+TRAINING - Epoch: [1][20/195]	Time 0.020 (0.044)	Data 0.000 (0.023)	Loss 2.1747 (2.1291)	Prec@1 17.578 (20.089)	Prec@5 68.750 (72.433)	
+TRAINING - Epoch: [1][30/195]	Time 0.020 (0.036)	Data 0.000 (0.016)	Loss 2.1819 (2.1469)	Prec@1 21.875 (20.212)	Prec@5 69.141 (71.510)	
+TRAINING - Epoch: [1][40/195]	Time 0.020 (0.032)	Data 0.000 (0.012)	Loss 2.1835 (2.1526)	Prec@1 17.969 (19.846)	Prec@5 68.750 (70.655)	
+TRAINING - Epoch: [1][50/195]	Time 0.020 (0.030)	Data 0.000 (0.010)	Loss 2.1846 (2.1525)	Prec@1 17.578 (20.006)	Prec@5 66.797 (70.542)	
+TRAINING - Epoch: [1][60/195]	Time 0.020 (0.028)	Data 0.000 (0.008)	Loss 2.1259 (2.1528)	Prec@1 20.703 (20.076)	Prec@5 72.266 (70.460)	
+TRAINING - Epoch: [1][70/195]	Time 0.020 (0.027)	Data 0.000 (0.007)	Loss 2.1278 (2.1525)	Prec@1 21.875 (20.054)	Prec@5 76.172 (70.670)	
+TRAINING - Epoch: [1][80/195]	Time 0.020 (0.026)	Data 0.000 (0.006)	Loss 2.0914 (2.1483)	Prec@1 21.875 (20.245)	Prec@5 78.516 (71.065)	
+TRAINING - Epoch: [1][90/195]	Time 0.020 (0.026)	Data 0.000 (0.005)	Loss 2.1200 (2.1445)	Prec@1 20.703 (20.394)	Prec@5 71.094 (71.257)	
+TRAINING - Epoch: [1][100/195]	Time 0.021 (0.025)	Data 0.000 (0.005)	Loss 2.1288 (2.1413)	Prec@1 17.188 (20.564)	Prec@5 72.266 (71.550)	
+TRAINING - Epoch: [1][110/195]	Time 0.020 (0.025)	Data 0.000 (0.005)	Loss 2.0880 (2.1392)	Prec@1 27.734 (20.791)	Prec@5 73.828 (71.720)	
+TRAINING - Epoch: [1][120/195]	Time 0.020 (0.024)	Data 0.000 (0.004)	Loss 2.1032 (2.1358)	Prec@1 23.438 (20.971)	Prec@5 73.047 (71.901)	
+TRAINING - Epoch: [1][130/195]	Time 0.021 (0.024)	Data 0.000 (0.004)	Loss 2.1427 (2.1340)	Prec@1 20.703 (20.995)	Prec@5 73.047 (72.033)	
+TRAINING - Epoch: [1][140/195]	Time 0.020 (0.024)	Data 0.000 (0.004)	Loss 2.0804 (2.1310)	Prec@1 21.094 (21.193)	Prec@5 73.438 (72.249)	
+TRAINING - Epoch: [1][150/195]	Time 0.020 (0.023)	Data 0.000 (0.003)	Loss 2.1506 (2.1294)	Prec@1 21.094 (21.223)	Prec@5 71.875 (72.426)	
+TRAINING - Epoch: [1][160/195]	Time 0.020 (0.023)	Data 0.000 (0.003)	Loss 2.1069 (2.1296)	Prec@1 19.141 (21.237)	Prec@5 73.047 (72.426)	
+TRAINING - Epoch: [1][170/195]	Time 0.020 (0.023)	Data 0.000 (0.003)	Loss 2.0760 (2.1280)	Prec@1 20.703 (21.222)	Prec@5 74.219 (72.585)	
+TRAINING - Epoch: [1][180/195]	Time 0.019 (0.023)	Data 0.000 (0.003)	Loss 2.2019 (2.1285)	Prec@1 20.312 (21.215)	Prec@5 66.406 (72.566)	
+TRAINING - Epoch: [1][190/195]	Time 0.020 (0.023)	Data 0.000 (0.003)	Loss 2.1284 (2.1267)	Prec@1 22.656 (21.349)	Prec@5 70.703 (72.689)	
+TRAINING - Epoch: [1][194/195]	Time 0.020 (0.023)	Data 0.000 (0.003)	Loss 1.9978 (2.1251)	Prec@1 27.344 (21.390)	Prec@5 80.469 (72.768)	
+EVALUATING - Epoch: [1][0/40]	Time 0.481 (0.481)	Data 0.474 (0.474)	Loss 2.0479 (2.0479)	Prec@1 27.344 (27.344)	Prec@5 76.172 (76.172)	
+EVALUATING - Epoch: [1][10/40]	Time 0.006 (0.050)	Data 0.000 (0.044)	Loss 2.0138 (2.0667)	Prec@1 19.141 (23.580)	Prec@5 80.859 (74.254)	
+EVALUATING - Epoch: [1][20/40]	Time 0.006 (0.030)	Data 0.000 (0.024)	Loss 2.1071 (2.0707)	Prec@1 22.656 (24.237)	Prec@5 71.875 (74.144)	
+EVALUATING - Epoch: [1][30/40]	Time 0.006 (0.023)	Data 0.000 (0.017)	Loss 2.0918 (2.0677)	Prec@1 25.391 (24.660)	Prec@5 73.828 (74.370)	
+EVALUATING - Epoch: [1][39/40]	Time 0.006 (0.019)	Data 0.000 (0.013)	Loss 1.9759 (2.0687)	Prec@1 31.250 (24.440)	Prec@5 81.250 (74.220)	
+
+Results - Epoch: 2
+Training Loss 2.1251 	Training Prec@1 21.390 	Training Prec@5 72.768 	Validation Loss 2.0687 	Validation Prec@1 24.440 	Validation Prec@5 74.220 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+
+Starting Epoch: 3
+
+TRAINING - Epoch: [2][0/195]	Time 0.495 (0.495)	Data 0.451 (0.451)	Loss 2.0744 (2.0744)	Prec@1 21.094 (21.094)	Prec@5 73.438 (73.438)	
+TRAINING - Epoch: [2][10/195]	Time 0.032 (0.076)	Data 0.000 (0.041)	Loss 2.1605 (2.1157)	Prec@1 15.625 (20.810)	Prec@5 72.266 (72.976)	
+TRAINING - Epoch: [2][20/195]	Time 0.030 (0.054)	Data 0.000 (0.022)	Loss 2.0624 (2.1063)	Prec@1 26.953 (22.452)	Prec@5 75.781 (73.624)	
+TRAINING - Epoch: [2][30/195]	Time 0.033 (0.047)	Data 0.000 (0.015)	Loss 2.0965 (2.1017)	Prec@1 24.219 (22.379)	Prec@5 73.047 (74.181)	
+TRAINING - Epoch: [2][40/195]	Time 0.031 (0.043)	Data 0.000 (0.011)	Loss 2.1051 (2.1014)	Prec@1 17.578 (22.218)	Prec@5 76.953 (74.314)	
+TRAINING - Epoch: [2][50/195]	Time 0.033 (0.041)	Data 0.000 (0.009)	Loss 2.0909 (2.0957)	Prec@1 19.922 (22.557)	Prec@5 77.734 (74.671)	
+TRAINING - Epoch: [2][60/195]	Time 0.034 (0.040)	Data 0.000 (0.008)	Loss 2.0644 (2.0911)	Prec@1 23.828 (22.810)	Prec@5 73.828 (74.968)	
+TRAINING - Epoch: [2][70/195]	Time 0.034 (0.039)	Data 0.000 (0.007)	Loss 2.1071 (2.0903)	Prec@1 21.094 (23.003)	Prec@5 72.656 (74.802)	
+TRAINING - Epoch: [2][80/195]	Time 0.034 (0.038)	Data 0.000 (0.006)	Loss 2.0415 (2.0921)	Prec@1 26.953 (22.786)	Prec@5 78.516 (74.802)	
+TRAINING - Epoch: [2][90/195]	Time 0.033 (0.038)	Data 0.000 (0.005)	Loss 2.1613 (2.0917)	Prec@1 17.188 (22.759)	Prec@5 71.484 (74.820)	
+TRAINING - Epoch: [2][100/195]	Time 0.034 (0.038)	Data 0.000 (0.005)	Loss 1.9786 (2.0918)	Prec@1 27.734 (22.834)	Prec@5 83.984 (74.741)	
+TRAINING - Epoch: [2][110/195]	Time 0.034 (0.037)	Data 0.000 (0.004)	Loss 2.3180 (2.1011)	Prec@1 10.156 (22.396)	Prec@5 56.641 (74.110)	
+TRAINING - Epoch: [2][120/195]	Time 0.034 (0.037)	Data 0.000 (0.004)	Loss 2.1852 (2.1130)	Prec@1 19.922 (21.856)	Prec@5 69.141 (73.321)	
+TRAINING - Epoch: [2][130/195]	Time 0.033 (0.037)	Data 0.000 (0.004)	Loss 2.2346 (2.1217)	Prec@1 19.531 (21.517)	Prec@5 62.109 (72.612)	
+TRAINING - Epoch: [2][140/195]	Time 0.035 (0.037)	Data 0.000 (0.003)	Loss 2.2550 (2.1293)	Prec@1 17.969 (21.224)	Prec@5 64.453 (72.124)	
+TRAINING - Epoch: [2][150/195]	Time 0.033 (0.036)	Data 0.000 (0.003)	Loss 2.2110 (2.1381)	Prec@1 19.531 (20.820)	Prec@5 66.016 (71.575)	
+TRAINING - Epoch: [2][160/195]	Time 0.033 (0.036)	Data 0.000 (0.003)	Loss 2.2283 (2.1441)	Prec@1 16.406 (20.633)	Prec@5 66.016 (71.128)	
+TRAINING - Epoch: [2][170/195]	Time 0.033 (0.036)	Data 0.000 (0.003)	Loss 2.2601 (2.1482)	Prec@1 16.016 (20.370)	Prec@5 60.156 (70.806)	
+TRAINING - Epoch: [2][180/195]	Time 0.029 (0.036)	Data 0.000 (0.003)	Loss 2.1519 (2.1514)	Prec@1 19.531 (20.267)	Prec@5 72.266 (70.621)	
+TRAINING - Epoch: [2][190/195]	Time 0.031 (0.035)	Data 0.000 (0.003)	Loss 2.2268 (2.1538)	Prec@1 18.359 (20.163)	Prec@5 62.891 (70.501)	
+TRAINING - Epoch: [2][194/195]	Time 0.031 (0.035)	Data 0.000 (0.002)	Loss 2.1944 (2.1543)	Prec@1 19.922 (20.156)	Prec@5 66.406 (70.459)	
+EVALUATING - Epoch: [2][0/40]	Time 0.452 (0.452)	Data 0.443 (0.443)	Loss 3.4888 (3.4888)	Prec@1 12.891 (12.891)	Prec@5 52.734 (52.734)	
+EVALUATING - Epoch: [2][10/40]	Time 0.006 (0.048)	Data 0.000 (0.042)	Loss 3.7045 (3.5985)	Prec@1 10.938 (12.109)	Prec@5 46.875 (49.964)	
+EVALUATING - Epoch: [2][20/40]	Time 0.006 (0.029)	Data 0.000 (0.023)	Loss 3.6027 (3.5905)	Prec@1 9.766 (11.942)	Prec@5 50.000 (50.205)	
+EVALUATING - Epoch: [2][30/40]	Time 0.006 (0.022)	Data 0.000 (0.016)	Loss 3.4505 (3.6064)	Prec@1 11.719 (11.996)	Prec@5 55.078 (49.798)	
+EVALUATING - Epoch: [2][39/40]	Time 0.004 (0.019)	Data 0.000 (0.013)	Loss 3.3982 (3.5930)	Prec@1 6.250 (12.010)	Prec@5 68.750 (50.140)	
+
+Results - Epoch: 3
+Training Loss 2.1543 	Training Prec@1 20.156 	Training Prec@5 70.459 	Validation Loss 3.5930 	Validation Prec@1 12.010 	Validation Prec@5 50.140 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+
+Starting Epoch: 4
+
+TRAINING - Epoch: [3][0/195]	Time 0.511 (0.511)	Data 0.470 (0.470)	Loss 2.2553 (2.2553)	Prec@1 19.531 (19.531)	Prec@5 65.625 (65.625)	
+TRAINING - Epoch: [3][10/195]	Time 0.033 (0.076)	Data 0.000 (0.043)	Loss 2.1814 (2.2000)	Prec@1 19.922 (17.827)	Prec@5 67.578 (66.868)	
+TRAINING - Epoch: [3][20/195]	Time 0.031 (0.055)	Data 0.000 (0.023)	Loss 2.1962 (2.1938)	Prec@1 21.094 (18.099)	Prec@5 66.406 (67.727)	
+TRAINING - Epoch: [3][30/195]	Time 0.031 (0.047)	Data 0.000 (0.015)	Loss 2.2024 (2.1868)	Prec@1 16.797 (18.309)	Prec@5 67.969 (67.981)	
+TRAINING - Epoch: [3][40/195]	Time 0.030 (0.043)	Data 0.000 (0.012)	Loss 2.1625 (2.1842)	Prec@1 22.656 (18.445)	Prec@5 69.531 (68.340)	
+TRAINING - Epoch: [3][50/195]	Time 0.033 (0.041)	Data 0.000 (0.009)	Loss 2.1701 (2.1738)	Prec@1 18.359 (18.964)	Prec@5 66.406 (69.079)	
+TRAINING - Epoch: [3][60/195]	Time 0.032 (0.040)	Data 0.000 (0.008)	Loss 2.1264 (2.1674)	Prec@1 23.438 (19.211)	Prec@5 72.656 (69.550)	
+TRAINING - Epoch: [3][70/195]	Time 0.030 (0.039)	Data 0.000 (0.007)	Loss 2.1741 (2.1630)	Prec@1 19.141 (19.471)	Prec@5 66.016 (69.905)	
+TRAINING - Epoch: [3][80/195]	Time 0.029 (0.038)	Data 0.000 (0.006)	Loss 2.2128 (2.1634)	Prec@1 20.312 (19.416)	Prec@5 68.750 (70.004)	
+TRAINING - Epoch: [3][90/195]	Time 0.030 (0.037)	Data 0.000 (0.005)	Loss 2.1798 (2.1641)	Prec@1 17.969 (19.488)	Prec@5 70.703 (69.892)	
+TRAINING - Epoch: [3][100/195]	Time 0.030 (0.036)	Data 0.000 (0.005)	Loss 2.1216 (2.1623)	Prec@1 19.141 (19.458)	Prec@5 71.484 (69.906)	
+TRAINING - Epoch: [3][110/195]	Time 0.029 (0.036)	Data 0.000 (0.004)	Loss 2.1425 (2.1606)	Prec@1 23.438 (19.542)	Prec@5 71.484 (70.020)	
+TRAINING - Epoch: [3][120/195]	Time 0.032 (0.035)	Data 0.000 (0.004)	Loss 2.1273 (2.1575)	Prec@1 20.703 (19.735)	Prec@5 71.094 (70.164)	
+TRAINING - Epoch: [3][130/195]	Time 0.032 (0.035)	Data 0.000 (0.004)	Loss 2.1776 (2.1562)	Prec@1 19.141 (19.838)	Prec@5 71.484 (70.277)	
+TRAINING - Epoch: [3][140/195]	Time 0.033 (0.035)	Data 0.000 (0.003)	Loss 2.1239 (2.1544)	Prec@1 18.359 (19.922)	Prec@5 71.875 (70.396)	
+TRAINING - Epoch: [3][150/195]	Time 0.034 (0.035)	Data 0.000 (0.003)	Loss 2.2002 (2.1540)	Prec@1 16.016 (20.020)	Prec@5 69.922 (70.512)	
+TRAINING - Epoch: [3][160/195]	Time 0.030 (0.035)	Data 0.000 (0.003)	Loss 2.1107 (2.1537)	Prec@1 24.219 (20.024)	Prec@5 74.219 (70.541)	
+TRAINING - Epoch: [3][170/195]	Time 0.033 (0.034)	Data 0.000 (0.003)	Loss 2.1296 (2.1530)	Prec@1 20.312 (20.041)	Prec@5 73.438 (70.625)	
+TRAINING - Epoch: [3][180/195]	Time 0.032 (0.034)	Data 0.000 (0.003)	Loss 2.1409 (2.1528)	Prec@1 18.359 (20.084)	Prec@5 74.609 (70.677)	
+TRAINING - Epoch: [3][190/195]	Time 0.033 (0.034)	Data 0.000 (0.003)	Loss 2.1712 (2.1531)	Prec@1 21.875 (20.122)	Prec@5 67.578 (70.542)	
+TRAINING - Epoch: [3][194/195]	Time 0.033 (0.034)	Data 0.000 (0.003)	Loss 2.1350 (2.1530)	Prec@1 21.875 (20.150)	Prec@5 75.000 (70.593)	
+EVALUATING - Epoch: [3][0/40]	Time 0.458 (0.458)	Data 0.451 (0.451)	Loss 4.3086 (4.3086)	Prec@1 12.109 (12.109)	Prec@5 50.781 (50.781)	
+EVALUATING - Epoch: [3][10/40]	Time 0.006 (0.049)	Data 0.000 (0.042)	Loss 4.5662 (4.4056)	Prec@1 11.328 (11.328)	Prec@5 48.047 (49.858)	
+EVALUATING - Epoch: [3][20/40]	Time 0.006 (0.029)	Data 0.000 (0.023)	Loss 4.3939 (4.3859)	Prec@1 14.062 (11.458)	Prec@5 52.344 (50.428)	
+EVALUATING - Epoch: [3][30/40]	Time 0.006 (0.022)	Data 0.000 (0.016)	Loss 4.1785 (4.4045)	Prec@1 15.625 (11.429)	Prec@5 53.125 (49.849)	
+EVALUATING - Epoch: [3][39/40]	Time 0.004 (0.019)	Data 0.000 (0.013)	Loss 3.9075 (4.3951)	Prec@1 12.500 (11.300)	Prec@5 56.250 (50.170)	
+
+Results - Epoch: 4
+Training Loss 2.1530 	Training Prec@1 20.150 	Training Prec@5 70.593 	Validation Loss 4.3951 	Validation Prec@1 11.300 	Validation Prec@5 50.170 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+
+Starting Epoch: 5
+
+TRAINING - Epoch: [4][0/195]	Time 0.402 (0.402)	Data 0.359 (0.359)	Loss 2.1272 (2.1272)	Prec@1 20.312 (20.312)	Prec@5 73.047 (73.047)	
+TRAINING - Epoch: [4][10/195]	Time 0.033 (0.068)	Data 0.000 (0.033)	Loss 2.1467 (2.1340)	Prec@1 18.359 (21.165)	Prec@5 73.438 (73.153)	
+TRAINING - Epoch: [4][20/195]	Time 0.031 (0.051)	Data 0.000 (0.017)	Loss 2.0930 (2.1259)	Prec@1 23.047 (21.373)	Prec@5 74.219 (73.289)	
+TRAINING - Epoch: [4][30/195]	Time 0.030 (0.044)	Data 0.000 (0.012)	Loss 2.1696 (2.1252)	Prec@1 23.828 (21.396)	Prec@5 71.875 (73.185)	
+TRAINING - Epoch: [4][40/195]	Time 0.031 (0.041)	Data 0.000 (0.009)	Loss 2.1663 (2.1270)	Prec@1 18.750 (21.380)	Prec@5 67.969 (72.723)	
+TRAINING - Epoch: [4][50/195]	Time 0.033 (0.039)	Data 0.000 (0.007)	Loss 2.0920 (2.1253)	Prec@1 23.438 (21.630)	Prec@5 76.953 (72.802)	
+TRAINING - Epoch: [4][60/195]	Time 0.034 (0.038)	Data 0.000 (0.006)	Loss 2.1164 (2.1230)	Prec@1 19.922 (21.741)	Prec@5 74.219 (72.791)	
+TRAINING - Epoch: [4][70/195]	Time 0.029 (0.037)	Data 0.000 (0.005)	Loss 2.1103 (2.1242)	Prec@1 21.094 (21.688)	Prec@5 71.875 (72.618)	
+TRAINING - Epoch: [4][80/195]	Time 0.030 (0.036)	Data 0.000 (0.005)	Loss 2.1287 (2.1276)	Prec@1 23.047 (21.480)	Prec@5 71.484 (72.227)	
+TRAINING - Epoch: [4][90/195]	Time 0.030 (0.036)	Data 0.000 (0.004)	Loss 2.1282 (2.1297)	Prec@1 23.828 (21.446)	Prec@5 70.703 (72.025)	
+TRAINING - Epoch: [4][100/195]	Time 0.030 (0.035)	Data 0.000 (0.004)	Loss 2.1165 (2.1308)	Prec@1 21.875 (21.422)	Prec@5 71.875 (71.829)	
+TRAINING - Epoch: [4][110/195]	Time 0.030 (0.035)	Data 0.000 (0.003)	Loss 2.0993 (2.1331)	Prec@1 24.609 (21.382)	Prec@5 71.484 (71.618)	
+TRAINING - Epoch: [4][120/195]	Time 0.035 (0.035)	Data 0.000 (0.003)	Loss 2.1654 (2.1335)	Prec@1 18.359 (21.362)	Prec@5 71.484 (71.614)	
+TRAINING - Epoch: [4][130/195]	Time 0.033 (0.035)	Data 0.000 (0.003)	Loss 2.0720 (2.1322)	Prec@1 21.484 (21.305)	Prec@5 75.391 (71.702)	
+TRAINING - Epoch: [4][140/195]	Time 0.033 (0.034)	Data 0.000 (0.003)	Loss 2.1512 (2.1327)	Prec@1 25.781 (21.290)	Prec@5 68.750 (71.659)	
+TRAINING - Epoch: [4][150/195]	Time 0.030 (0.034)	Data 0.000 (0.003)	Loss 2.1628 (2.1334)	Prec@1 22.266 (21.241)	Prec@5 71.094 (71.645)	
+TRAINING - Epoch: [4][160/195]	Time 0.034 (0.034)	Data 0.000 (0.002)	Loss 2.1609 (2.1345)	Prec@1 20.703 (21.251)	Prec@5 75.781 (71.659)	
+TRAINING - Epoch: [4][170/195]	Time 0.033 (0.034)	Data 0.000 (0.002)	Loss 2.1350 (2.1352)	Prec@1 25.781 (21.270)	Prec@5 71.875 (71.569)	
+TRAINING - Epoch: [4][180/195]	Time 0.031 (0.034)	Data 0.000 (0.002)	Loss 2.1133 (2.1358)	Prec@1 31.250 (21.303)	Prec@5 72.656 (71.551)	
+TRAINING - Epoch: [4][190/195]	Time 0.028 (0.033)	Data 0.000 (0.002)	Loss 2.1278 (2.1361)	Prec@1 21.094 (21.302)	Prec@5 70.703 (71.552)	
+TRAINING - Epoch: [4][194/195]	Time 0.029 (0.033)	Data 0.000 (0.002)	Loss 2.1633 (2.1363)	Prec@1 17.578 (21.280)	Prec@5 72.656 (71.569)	
+Traceback (most recent call last):
+  File "analysis_loss_scale_0.py", line 430, in <module>
+    main()
+  File "analysis_loss_scale_0.py", line 143, in main
+    results = main_worker(args)
+  File "analysis_loss_scale_0.py", line 371, in main_worker
+    val_results, _ = trainer.validate(val_data.get_loader())
+  File "/data/moran/ConvNet_lowp_0/convNet.pytorch/trainer.py", line 470, in validate
+    return self.forward(data_loader, average_output=average_output, training=False)
+  File "/data/moran/ConvNet_lowp_0/convNet.pytorch/trainer.py", line 384, in forward
+    for i, (inputs, target) in enumerate(data_loader):
+  File "/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/utils/data/dataloader.py", line 279, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/utils/data/dataloader.py", line 719, in __init__
+    w.start()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.5/multiprocessing/context.py", line 212, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib/python3.5/multiprocessing/context.py", line 267, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.5/multiprocessing/popen_fork.py", line 20, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.5/multiprocessing/popen_fork.py", line 67, in _launch
+    self.pid = os.fork()
+KeyboardInterrupt

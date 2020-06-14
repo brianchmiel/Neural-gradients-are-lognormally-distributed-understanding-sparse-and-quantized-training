@@ -1,0 +1,137 @@
+saving to ./results/2020-05-12_15-24-22
+creating model resnet
+created model with configuration: {'depth': 18, 'dataset': 'cifar10'}
+number of parameters: 175258
+optimization regime: [{'regularizer': {'log': False, 'value': 0.0001, 'filter': {'parameter_name': <function weight_decay_config.<locals>.<lambda> at 0x7f7bee597ae8>, 'module': <function weight_decay_config.<locals>.<lambda> at 0x7f7bee597840>}, 'name': 'WeightDecay'}, 'optimizer': 'SGD', 'epoch': 0, 'momentum': 0.9, 'lr': 0.1}, {'lr': 0.01, 'epoch': 81}, {'lr': 0.001, 'epoch': 122}, {'lr': 0.0001, 'epoch': 164}]
+data regime: Current: {'pin_memory': True, 'autoaugment': False, 'augment': True, 'name': 'cifar10', 'drop_last': True, 'datasets_path': '/data/datasets/ILSVRC2012', 'cutout': None, 'batch_size': 256, 'duplicates': 1, 'num_workers': 8, 'distributed': False, 'input_size': None, 'split': 'train', 'shuffle': True}
+ Regime:None
+
+Starting Epoch: 1
+
+Files already downloaded and verified
+Files already downloaded and verified
+/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/nn/modules/conv.py:342: UserWarning: <LOWP> function conv2d was patched with lowp on 7 args
+  self.padding, self.dilation, self.groups)
+/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/nn/modules/pooling.py:1031: UserWarning: <LOWP> function adaptive_avg_pool2d was patched with lowp on 2 args
+  return F.adaptive_avg_pool2d(input, self.output_size)
+/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/nn/functional.py:1370: UserWarning: <LOWP> function addmm was patched with lowp on 6 args
+  ret = torch.addmm(bias, input, weight.t())
+/data/moran/ConvNet_lowp_0/convNet.pytorch/trainer.py:161: UserWarning: <LOWP> function __mul__ was patched with lowp on 2 args
+  loss = loss * self.loss_scale
+/data/moran/ConvNet_lowp_0/convNet.pytorch/utils/meters.py:70: UserWarning: <LOWP> function sum was patched with lowp on 2 args
+  correct_k = correct[:k].view(-1).float().sum(0)
+TRAINING - Epoch: [0][0/195]	Time 0.679 (0.679)	Data 0.421 (0.421)	Loss 2.3064 (2.3064)	Prec@1 11.328 (11.328)	Prec@5 49.219 (49.219)	
+TRAINING - Epoch: [0][10/195]	Time 0.023 (0.085)	Data 0.000 (0.038)	Loss 2.2148 (2.2730)	Prec@1 19.922 (13.991)	Prec@5 66.406 (60.795)	
+TRAINING - Epoch: [0][20/195]	Time 0.024 (0.056)	Data 0.000 (0.020)	Loss 2.1343 (2.2251)	Prec@1 21.484 (17.485)	Prec@5 73.828 (65.997)	
+TRAINING - Epoch: [0][30/195]	Time 0.024 (0.046)	Data 0.000 (0.014)	Loss 2.0255 (2.1816)	Prec@1 25.000 (18.989)	Prec@5 72.266 (68.737)	
+TRAINING - Epoch: [0][40/195]	Time 0.023 (0.040)	Data 0.000 (0.010)	Loss 2.0836 (2.1506)	Prec@1 21.094 (20.055)	Prec@5 77.344 (70.922)	
+TRAINING - Epoch: [0][50/195]	Time 0.023 (0.037)	Data 0.000 (0.008)	Loss 2.1153 (2.1309)	Prec@1 20.703 (20.527)	Prec@5 71.875 (71.936)	
+TRAINING - Epoch: [0][60/195]	Time 0.025 (0.035)	Data 0.000 (0.007)	Loss 2.0323 (2.1103)	Prec@1 25.781 (21.062)	Prec@5 74.609 (72.880)	
+TRAINING - Epoch: [0][70/195]	Time 0.024 (0.033)	Data 0.000 (0.006)	Loss 1.9651 (2.0934)	Prec@1 27.734 (21.600)	Prec@5 81.641 (73.790)	
+TRAINING - Epoch: [0][80/195]	Time 0.024 (0.032)	Data 0.000 (0.005)	Loss 1.9771 (2.0811)	Prec@1 29.297 (22.015)	Prec@5 82.031 (74.460)	
+TRAINING - Epoch: [0][90/195]	Time 0.024 (0.031)	Data 0.000 (0.005)	Loss 1.9944 (2.0728)	Prec@1 24.609 (22.197)	Prec@5 80.859 (74.931)	
+TRAINING - Epoch: [0][100/195]	Time 0.024 (0.031)	Data 0.000 (0.004)	Loss 2.0080 (2.0651)	Prec@1 23.438 (22.505)	Prec@5 75.781 (75.271)	
+TRAINING - Epoch: [0][110/195]	Time 0.024 (0.030)	Data 0.000 (0.004)	Loss 2.0062 (2.0627)	Prec@1 24.609 (22.565)	Prec@5 80.469 (75.436)	
+TRAINING - Epoch: [0][120/195]	Time 0.024 (0.030)	Data 0.000 (0.004)	Loss 2.0149 (2.0611)	Prec@1 21.875 (22.553)	Prec@5 77.734 (75.484)	
+TRAINING - Epoch: [0][130/195]	Time 0.024 (0.029)	Data 0.000 (0.003)	Loss 2.0404 (2.0597)	Prec@1 20.703 (22.558)	Prec@5 75.391 (75.650)	
+TRAINING - Epoch: [0][140/195]	Time 0.024 (0.029)	Data 0.000 (0.003)	Loss 2.0383 (2.0581)	Prec@1 26.172 (22.532)	Prec@5 75.391 (75.759)	
+TRAINING - Epoch: [0][150/195]	Time 0.023 (0.029)	Data 0.000 (0.003)	Loss 2.0108 (2.0577)	Prec@1 21.484 (22.496)	Prec@5 76.953 (75.786)	
+TRAINING - Epoch: [0][160/195]	Time 0.024 (0.028)	Data 0.000 (0.003)	Loss 1.8891 (2.0564)	Prec@1 31.641 (22.593)	Prec@5 88.672 (75.883)	
+TRAINING - Epoch: [0][170/195]	Time 0.024 (0.028)	Data 0.000 (0.003)	Loss 2.0454 (2.0541)	Prec@1 21.875 (22.640)	Prec@5 74.219 (75.982)	
+TRAINING - Epoch: [0][180/195]	Time 0.024 (0.028)	Data 0.000 (0.002)	Loss 2.0380 (2.0521)	Prec@1 23.047 (22.693)	Prec@5 76.953 (76.107)	
+TRAINING - Epoch: [0][190/195]	Time 0.023 (0.028)	Data 0.000 (0.002)	Loss 2.1334 (2.0512)	Prec@1 19.531 (22.679)	Prec@5 71.875 (76.194)	
+TRAINING - Epoch: [0][194/195]	Time 0.023 (0.028)	Data 0.000 (0.002)	Loss 2.0560 (2.0510)	Prec@1 20.703 (22.702)	Prec@5 78.906 (76.216)	
+EVALUATING - Epoch: [0][0/40]	Time 0.498 (0.498)	Data 0.483 (0.483)	Loss 10.6851 (10.6851)	Prec@1 7.812 (7.812)	Prec@5 51.562 (51.562)	
+EVALUATING - Epoch: [0][10/40]	Time 0.008 (0.053)	Data 0.000 (0.044)	Loss 10.2306 (10.2430)	Prec@1 8.594 (9.588)	Prec@5 47.656 (49.787)	
+EVALUATING - Epoch: [0][20/40]	Time 0.009 (0.032)	Data 0.000 (0.023)	Loss 9.9299 (10.1453)	Prec@1 10.547 (10.100)	Prec@5 51.172 (50.465)	
+EVALUATING - Epoch: [0][30/40]	Time 0.010 (0.024)	Data 0.000 (0.016)	Loss 9.9172 (10.1904)	Prec@1 8.984 (9.917)	Prec@5 51.953 (50.189)	
+EVALUATING - Epoch: [0][39/40]	Time 0.046 (0.022)	Data 0.000 (0.012)	Loss 11.9228 (10.1761)	Prec@1 6.250 (10.000)	Prec@5 43.750 (50.580)	
+
+Results - Epoch: 1
+Training Loss 2.0510 	Training Prec@1 22.702 	Training Prec@5 76.216 	Validation Loss 10.1761 	Validation Prec@1 10.000 	Validation Prec@5 50.580 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+Plot file saved at: /data/moran/ConvNet_lowp_0/convNet.pytorch/results/2020-05-12_15-24-22/results.html
+
+Starting Epoch: 2
+
+TRAINING - Epoch: [1][0/195]	Time 0.561 (0.561)	Data 0.518 (0.518)	Loss 2.0242 (2.0242)	Prec@1 17.578 (17.578)	Prec@5 74.609 (74.609)	
+TRAINING - Epoch: [1][10/195]	Time 0.023 (0.073)	Data 0.000 (0.047)	Loss 2.0280 (2.0323)	Prec@1 23.828 (22.301)	Prec@5 75.781 (76.136)	
+TRAINING - Epoch: [1][20/195]	Time 0.024 (0.050)	Data 0.000 (0.025)	Loss 2.1034 (2.0348)	Prec@1 21.094 (22.489)	Prec@5 72.266 (76.544)	
+TRAINING - Epoch: [1][30/195]	Time 0.024 (0.042)	Data 0.000 (0.017)	Loss 2.0143 (2.0417)	Prec@1 24.609 (22.379)	Prec@5 77.344 (76.285)	
+TRAINING - Epoch: [1][40/195]	Time 0.025 (0.038)	Data 0.000 (0.013)	Loss 2.0739 (2.0438)	Prec@1 20.703 (22.294)	Prec@5 72.656 (76.134)	
+TRAINING - Epoch: [1][50/195]	Time 0.025 (0.035)	Data 0.000 (0.010)	Loss 2.0719 (2.0432)	Prec@1 22.656 (22.786)	Prec@5 74.219 (76.011)	
+TRAINING - Epoch: [1][60/195]	Time 0.025 (0.033)	Data 0.000 (0.009)	Loss 2.0388 (2.0439)	Prec@1 25.000 (22.848)	Prec@5 76.953 (76.089)	
+TRAINING - Epoch: [1][70/195]	Time 0.028 (0.032)	Data 0.000 (0.007)	Loss 2.0465 (2.0412)	Prec@1 21.094 (22.920)	Prec@5 77.344 (76.254)	
+TRAINING - Epoch: [1][80/195]	Time 0.024 (0.031)	Data 0.000 (0.007)	Loss 1.9714 (2.0371)	Prec@1 21.094 (22.921)	Prec@5 78.906 (76.529)	
+TRAINING - Epoch: [1][90/195]	Time 0.024 (0.030)	Data 0.000 (0.006)	Loss 1.9865 (2.0339)	Prec@1 27.344 (23.103)	Prec@5 78.906 (76.691)	
+TRAINING - Epoch: [1][100/195]	Time 0.024 (0.030)	Data 0.000 (0.005)	Loss 2.0586 (2.0313)	Prec@1 19.141 (23.213)	Prec@5 75.391 (76.903)	
+TRAINING - Epoch: [1][110/195]	Time 0.024 (0.029)	Data 0.000 (0.005)	Loss 1.9273 (2.0300)	Prec@1 33.984 (23.325)	Prec@5 79.297 (77.052)	
+TRAINING - Epoch: [1][120/195]	Time 0.025 (0.029)	Data 0.000 (0.004)	Loss 2.0208 (2.0279)	Prec@1 21.875 (23.383)	Prec@5 79.688 (77.189)	
+TRAINING - Epoch: [1][130/195]	Time 0.025 (0.029)	Data 0.000 (0.004)	Loss 2.0358 (2.0258)	Prec@1 20.312 (23.399)	Prec@5 76.172 (77.260)	
+TRAINING - Epoch: [1][140/195]	Time 0.024 (0.028)	Data 0.000 (0.004)	Loss 2.0117 (2.0236)	Prec@1 22.656 (23.468)	Prec@5 75.391 (77.358)	
+TRAINING - Epoch: [1][150/195]	Time 0.024 (0.028)	Data 0.000 (0.004)	Loss 2.1327 (2.0248)	Prec@1 20.703 (23.311)	Prec@5 75.000 (77.385)	
+TRAINING - Epoch: [1][160/195]	Time 0.024 (0.028)	Data 0.000 (0.003)	Loss 2.1019 (2.0285)	Prec@1 20.312 (23.219)	Prec@5 70.312 (77.196)	
+TRAINING - Epoch: [1][170/195]	Time 0.025 (0.028)	Data 0.000 (0.003)	Loss 2.0071 (2.0308)	Prec@1 21.875 (23.136)	Prec@5 77.344 (77.134)	
+TRAINING - Epoch: [1][180/195]	Time 0.024 (0.027)	Data 0.000 (0.003)	Loss 2.1949 (2.0352)	Prec@1 19.922 (22.930)	Prec@5 70.703 (76.947)	
+TRAINING - Epoch: [1][190/195]	Time 0.026 (0.027)	Data 0.000 (0.003)	Loss 2.1048 (2.0359)	Prec@1 17.578 (22.898)	Prec@5 75.000 (76.978)	
+TRAINING - Epoch: [1][194/195]	Time 0.023 (0.027)	Data 0.000 (0.003)	Loss 1.9553 (2.0350)	Prec@1 25.000 (22.955)	Prec@5 81.641 (77.027)	
+EVALUATING - Epoch: [1][0/40]	Time 0.451 (0.451)	Data 0.432 (0.432)	Loss 7.9311 (7.9311)	Prec@1 13.281 (13.281)	Prec@5 52.734 (52.734)	
+EVALUATING - Epoch: [1][10/40]	Time 0.009 (0.051)	Data 0.000 (0.040)	Loss 8.0314 (8.0119)	Prec@1 11.328 (12.287)	Prec@5 48.438 (51.420)	
+EVALUATING - Epoch: [1][20/40]	Time 0.008 (0.031)	Data 0.000 (0.021)	Loss 8.0994 (8.0576)	Prec@1 10.156 (12.016)	Prec@5 48.438 (50.856)	
+EVALUATING - Epoch: [1][30/40]	Time 0.010 (0.024)	Data 0.000 (0.015)	Loss 7.8618 (8.0976)	Prec@1 13.672 (12.160)	Prec@5 53.125 (50.277)	
+EVALUATING - Epoch: [1][39/40]	Time 0.008 (0.020)	Data 0.000 (0.011)	Loss 8.4845 (8.0847)	Prec@1 6.250 (12.220)	Prec@5 43.750 (50.510)	
+
+Results - Epoch: 2
+Training Loss 2.0350 	Training Prec@1 22.955 	Training Prec@5 77.027 	Validation Loss 8.0847 	Validation Prec@1 12.220 	Validation Prec@5 50.510 	
+
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+
+Starting Epoch: 3
+
+TRAINING - Epoch: [2][0/195]	Time 0.454 (0.454)	Data 0.425 (0.425)	Loss 2.0198 (2.0198)	Prec@1 26.172 (26.172)	Prec@5 78.516 (78.516)	
+TRAINING - Epoch: [2][10/195]	Time 0.024 (0.063)	Data 0.000 (0.039)	Loss 2.0411 (2.0618)	Prec@1 17.188 (21.342)	Prec@5 74.609 (76.207)	
+TRAINING - Epoch: [2][20/195]	Time 0.025 (0.045)	Data 0.000 (0.020)	Loss 2.0513 (2.0483)	Prec@1 20.703 (22.526)	Prec@5 76.172 (76.172)	
+TRAINING - Epoch: [2][30/195]	Time 0.024 (0.038)	Data 0.000 (0.014)	Loss 2.0658 (2.0365)	Prec@1 21.094 (22.858)	Prec@5 77.344 (76.789)	
+TRAINING - Epoch: [2][40/195]	Time 0.024 (0.035)	Data 0.000 (0.011)	Loss 2.0742 (2.0396)	Prec@1 20.703 (22.771)	Prec@5 77.344 (76.696)	
+TRAINING - Epoch: [2][50/195]	Time 0.025 (0.033)	Data 0.000 (0.009)	Loss 2.0671 (2.0407)	Prec@1 20.703 (22.978)	Prec@5 74.219 (76.555)	
+TRAINING - Epoch: [2][60/195]	Time 0.025 (0.032)	Data 0.000 (0.007)	Loss 2.0563 (2.0476)	Prec@1 23.438 (22.752)	Prec@5 75.000 (76.185)	
+TRAINING - Epoch: [2][70/195]	Time 0.024 (0.031)	Data 0.000 (0.006)	Loss 2.0728 (2.0528)	Prec@1 19.531 (22.541)	Prec@5 76.172 (75.924)	
+TRAINING - Epoch: [2][80/195]	Time 0.024 (0.030)	Data 0.000 (0.005)	Loss 2.0471 (2.0553)	Prec@1 20.312 (22.266)	Prec@5 72.266 (75.805)	
+TRAINING - Epoch: [2][90/195]	Time 0.024 (0.029)	Data 0.000 (0.005)	Loss 2.1662 (2.0586)	Prec@1 17.969 (22.051)	Prec@5 71.875 (75.863)	
+TRAINING - Epoch: [2][100/195]	Time 0.025 (0.029)	Data 0.000 (0.004)	Loss 2.0497 (2.0597)	Prec@1 20.703 (22.041)	Prec@5 77.344 (75.739)	
+TRAINING - Epoch: [2][110/195]	Time 0.024 (0.028)	Data 0.000 (0.004)	Loss 2.1161 (2.0621)	Prec@1 21.875 (22.002)	Prec@5 74.609 (75.704)	
+TRAINING - Epoch: [2][120/195]	Time 0.025 (0.028)	Data 0.000 (0.004)	Loss 2.0696 (2.0644)	Prec@1 21.094 (21.998)	Prec@5 76.172 (75.607)	
+TRAINING - Epoch: [2][130/195]	Time 0.027 (0.028)	Data 0.000 (0.003)	Loss 2.1129 (2.0648)	Prec@1 22.266 (21.985)	Prec@5 74.609 (75.686)	
+TRAINING - Epoch: [2][140/195]	Time 0.024 (0.028)	Data 0.000 (0.003)	Loss 2.1143 (2.0651)	Prec@1 23.047 (21.989)	Prec@5 74.219 (75.618)	
+TRAINING - Epoch: [2][150/195]	Time 0.025 (0.028)	Data 0.000 (0.003)	Loss 2.0656 (2.0679)	Prec@1 23.438 (21.922)	Prec@5 76.172 (75.499)	
+Traceback (most recent call last):
+  File "main_0.py", line 368, in <module>
+    main()
+  File "main_0.py", line 132, in main
+    main_worker(args)
+  File "main_0.py", line 309, in main_worker
+    chunk_batch=args.chunk_batch)
+  File "/data/moran/ConvNet_lowp_0/convNet.pytorch/trainer.py", line 269, in train
+    return self.forward(data_loader, training=True, average_output=average_output, chunk_batch=chunk_batch)
+  File "/data/moran/ConvNet_lowp_0/convNet.pytorch/trainer.py", line 224, in forward
+    prec1, prec5 = accuracy(output, target, topk=(1, 5))
+  File "/data/moran/ConvNet_lowp_0/convNet.pytorch/utils/meters.py", line 70, in accuracy
+    correct_k = correct[:k].view(-1).float().sum(0)
+  File "/data/moran/ConvNet_lowp_0/lowp.pytorch-custom_fp8/lowp/__init__.py", line 187, in wrap_fn
+    kargs, kwargs = recursive_wrap((kargs, kwargs), qInputFn)
+  File "/data/moran/ConvNet_lowp_0/lowp.pytorch-custom_fp8/lowp/__init__.py", line 160, in recursive_wrap
+    if torch.is_tensor(inputs):
+  File "/data/moran/ConvNet_lowp_0/env/lib/python3.5/site-packages/torch/__init__.py", line 122, in is_tensor
+    return isinstance(obj, torch.Tensor)
+KeyboardInterrupt
